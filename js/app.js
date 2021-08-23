@@ -50,4 +50,5 @@ function verifyPin() {
       failError.innerText = "You have exceeded the amount of tries. Please try again in 10 minutes";
     }
   }
+  document.getElementById("typed-numbers").value = "";
 }
